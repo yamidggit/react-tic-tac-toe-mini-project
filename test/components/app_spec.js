@@ -23,10 +23,9 @@ describe('<App />',()=>{
         
         it('render className app',()=>{
             expect(wrapper.find('.app')).to.have.length(1);
-            
         });
         
-          it('renders an h1 tag', () => {
+        it('renders an h1 tag', () => {
             expect(wrapper).to.have.exactly(1).descendants('h1');
         });
         

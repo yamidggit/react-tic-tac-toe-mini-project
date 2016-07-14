@@ -6,15 +6,9 @@ export class App extends React.Component{
         
         return(
             <div className="app">
-            <h1> {this.props.name}</h1>
-            {console.log(this.props.state)}
-            
-                 <Board board={this.props.state.get("board")} /> 
-            
-    
+                <h1> {this.props.name}</h1>
+                <Board board={this.props.state.get("board")} /> 
             </div>
-            
-            );
+        );
     }
-    
 }

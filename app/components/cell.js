@@ -5,10 +5,8 @@ export class Cell extends React.Component{
       
       return(
             <div  className="cell"> 
-                <div className="new_span ">{this.props.cell}</div>
+                <div className="new_span">{this.props.cell}</div>
             </div>
-            
         );  
     }
-    
 }
